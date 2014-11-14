@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		
+		<!-- navbar -->
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand"> Site Title </a>
+					
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+					</button>
+				</div>
+				
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-left">
+						<li> <a href="#"> Home </a></li>
+						<li> <a href="#"> Contact </a></li>
+						<li> <a href="#"> etc... </a> </li>
+					</ul>
+					
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown"> 
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Username <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li> <a href="#"> Profile </a> </li>
+									<li> <a href="#"> Change password </a> </li>
+									<li> <a href="#"> etc... </a> </li>
+									<li class="divider"></li>
+									<li> <a href="#"> Sign out </a> </li>					
+								</ul>
+							</li>
+						</ul>
+
+						<form class="navbar-form navbar-right" role="form" >
+							<div class="form-group">
+								<input type="text" placeholder="Username" class="form-control"/>
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Password" class="form-control"/>
+							</div>
+							<button type="submit" class="btn btn-success">Sign in</button>
+						</form>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Content -->
+		<div class="container container-fix">
+		
+			<div class="alert alert-info">
+				<a class="close" data-dismiss="alert">*</a>
+				<p> Used to display messages </p>
+			</div>
+			
+			<h1>Content goes here</h1>
+		</div>
+		
+		<!-- sticky footer -->
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<p class="navbar-center"> &copy; Eelke van Turnhout 2014</p>
+			</div>
+		</div>
+		
+	</body>
+</html>

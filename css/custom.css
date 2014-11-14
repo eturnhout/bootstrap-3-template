@@ -1,0 +1,16 @@
+.form-width{
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* For thet text in the footer */
+.navbar-center{
+	padding-top:10px;
+	text-align:center;
+}
+
+/* To make sure the content cant hide behind the footer */
+.container-fix{
+	margin-bottom:70px;
+}
